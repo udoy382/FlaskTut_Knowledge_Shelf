@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home2</title>
+</head>
+<body>
+    <h1>This is Home2</h1>
+
+
+    <h2>List1</h2>
+    <ul>
+        {% for var1 in list1 %}
+
+        <li>{{var1}}</li>
+
+        {% endfor %}
+    </ul>
+
+    <h1>For if-else Condition </h1>
+
+    {% if 'Mariyam' in list1 %}
+    <p>we have found this Mariyam</p>
+    {% else %}
+    <p>Match not found</p>
+    {% endif%}
+</body>
+</html>
